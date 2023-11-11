@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Open+Sans&family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: white; 
+    
+}
+.box1{
+    width: 350px;
+    height: fit-content;
+    border-radius: 10px;
+    border-top: 2px solid green;
+    box-shadow: 2px 3px 5px gray;
+    background-color: white;
+    place-self: center;
+}
+.text{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 100;
+}
+ .ai{
+    color:  hsl(229, 6%, 66%);
+}
+.super{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.box2{
+    width: 350px;
+    height: fit-content;
+    border-radius: 10px;
+    border-top: 2px solid hsl(0, 78%, 62%);
+    box-shadow: 2px 3px 5px gray;
+    background-color: white;
+}
+.box3{
+    width: 350px;
+    height: fit-content;
+    border-radius: 10px;
+    border-top: 2px solid  hsl(34, 97%, 64%);
+    box-shadow: 2px 3px 5px gray;
+    /* margin-bottom: 30px; */
+    background-color: white;
+}
+.box4{
+    width: 350px;
+    height: fit-content;
+    border-radius: 10px;
+    border-top: 2px solid hsl(212, 86%, 64%);
+    box-shadow: 2px 3px 5px gray;
+    background-color: white;
+    place-self: center;
+}
+.super{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.team{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.km{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.calc{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.lens{
+    margin-left: 250px;
+    padding-bottom: 15px;
+}
+.building{
+     margin-left: 250px;
+     padding-bottom: 15px;
+}
+.light{
+    margin-left: 250px;
+    padding-bottom: 15px;
+
+}
+.culator{
+     margin-left: 250px;
+     padding-bottom: 15px;
+}
+main{
+    margin-top: 40px;
+    display: flex;
+    /* margin-inline: auto; */
+    place-content: center;
+    gap: 20px;
+}
+.vertical{
+    gap: 20px; 
+    display: grid;
+}
+.horizontal{
+    display: flex;
+}
+.supervisortext{
+    color:hsl(229, 6%, 66%) ;
+}
+.teamtext{
+    color: hsl(229, 6%, 66%);
+}
+.karmatext{
+    color: hsl(229, 6%, 66%);
+}
+.calctext{
+    color: hsl(229, 6%, 66%);
+}
+h2{
+    color: hsl(234, 12%, 34%);
+}
+
+@media (max-width:1101px) {
+    main{
+        flex-direction: column;
+    }
+    .vertical{
+        display: flex;
+        place-self: center;
+    }
+}
+@media (max-width:800px){
+    main{
+        display: grid;
+    }
+    .vertical{
+        display: grid;
+    }
+}
+                        
