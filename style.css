@@ -5,8 +5,6 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Big Shoulders Display', sans-serif;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-color: white; 
     
@@ -126,6 +124,9 @@ main{
 }
 h2{
     color: hsl(234, 12%, 34%);
+}
+.top{
+ font-weight:100 ;
 }
 
 @media (max-width:1101px) {
